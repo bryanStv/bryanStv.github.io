@@ -53,8 +53,7 @@ table{
 
 /*MENU*/
 .menu{
-    margin: auto;
-    padding: auto;
+    margin: 0 auto;
     background-color: transparent;
     max-width: 1200px;
     font-family: 'Honk','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -109,13 +108,17 @@ table{
     display: flex;
 }
 .registroYformulario section{
-    flex: 2;
+    flex: 1;
 }
 .registroYformulario aside{
-    flex: 2;
+    flex: 1;
 }
 .registroYformulario h1,h2,p{
     text-align: center;
+}
+#infoRegistro{
+    background-color: rgb(250, 209, 72);
+    border: 1px solid rgb(169, 60, 30);
 }
 #registroMain{
     display: flex;
@@ -123,6 +126,10 @@ table{
     justify-content: center;
     align-items: center;
     margin: 0 15px;
+    background-color: rgb(141, 171, 200);
+    padding: 20px;
+    border: 1px solid rgb(169, 60, 30);
+    width: 300px;
 }
 #formularioPeliculas{
     display: flex;
@@ -130,21 +137,56 @@ table{
     justify-content: center;
     align-items: center;
     margin: 0 15px;
+    background-color: rgb(248, 181, 224);
+    border: 1px solid rgb(169, 60, 30);;
 }
-/*footer*/
 
+/*labels*/
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/*inputs*/
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(169, 60, 30);
+    border-radius: 4px;
+}
+
+/*botones*/
+input[type="submit"],
+input[type="reset"] {
+    background-color: rgb(169, 60, 30);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: green;
+}
+
+/*footer*/
 footer{
     background-color: rgb(169, 60, 30);
+    text-align: center;
 }
 #pfooter{
     font-size: xx-large;
 }
 
-
 /*TIPOS DE LETRAS IMPORTADAS DE GOOGLE FONTS*/
 .honk-letraColoresP {
     font-family: "Honk", system-ui;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="index.css">
 
     <!--Estilos de letras importadas-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +14,6 @@
 </head>
 <body>
     <header>
-        <title>RSS Ofertas</title>
-        <link rel="alternate" type="application/rss+xml" title="RSS Ofertas" href="peliculas.rss">
         <div id="banner"><img src="media/imagenes/banners/CinemaTicket.jpg" width="1900" height="614" alt="Imágen no disponible"></div>
         <nav class="menu">
             <ul>
@@ -26,7 +24,7 @@
         <div class="introduccionResumen">
             <section>
                 <h1>CINE DE CULTO</h1>
-                <h1>AUTOR: BRYAN OYOLA</h1>
+                <h1>AUTOR DEL BLOG: BRYAN OYOLA</h1>
                 <h2>¡Bienvenidos a Cinema2.0! Sumérgete en el fascinante mundo del cine de culto, donde las películas trascienden el tiempo y se convierten en obras atemporales que cautivan a generaciones enteras. Descubre acerca de las películas que han dejado una marca indeleble en la historia del cine. Explora nuestro sitio para desentrañar los secretos detrás de estas joyas cinematográficas y únete a una comunidad apasionada que comparte el amor por el cine que perdura. ¡Prepárate para un viaje cinematográfico único en Cinema2.0!</h2>
                 <p id="disclaimer">DISCLAIMER:Resumen para nada escrito usando chatGPT😊😊😊</p>
             </section>
@@ -36,9 +34,9 @@
         </div>
     </header>
     <div class="registroYformulario">
-        <section>
+        <section id="infoRegistro">
             <h2>¡REGÍSTRATE!</h2>
-            <p>Para comenzar, <em>nos gustaría que te registraras</em>,a la derecha encontrarás un formulario de registro, no te preocupes, este sitio no tiene cookies ni guarda tu información en <strong>NINGÚN</strong> sitio</p>
+            <p>Para comenzar, <em>¡nos gustaría que te registraras!</em> a la derecha encontrarás un formulario de registro, no te preocupes, este sitio no tiene cookies ni guarda tu información en <strong>NINGÚN</strong> sitio</p>
             <p>Al fin y al cabo, <del>ni el registro se registra... AÚN</del></p>
             <p>Ya que como todos sabemos: <q>Una web necesita más que sólo html y css para ser interactiva</q></p>
         </section>
@@ -77,16 +75,9 @@
     </div>
     <section>
         <h2>NOVEDADES</h2>
-        <p>Sí quieres ver algo más nuevo, aquí tenemos unas pocas películas que se encuentran en cines ahora mismo</p>
-        <div class="slider-container">
+        <h3>Sí quieres ver algo más nuevo, aquí tenemos unas pocas películas que se encuentran en cines ahora mismo</h3>
+        <div>
             <table>
-                <!--<thead>
-                    <tr>
-                        <th>Beekeeper: El Protector</th>
-                        <th>Aquaman y el reino perdido</th>
-                        <th>Wonka</th>
-                    </tr>
-                </thead> -->
                 <tbody>
                         <tr class="image-table">
                             <td><img src="media/imagenes/portadas/beekeeper.jpeg" alt="No disponible" width="197" height="282"></td>
@@ -94,18 +85,13 @@
                             <td><img src="media/imagenes/portadas/wonka.jpeg" alt="No disponible" width="197" height="282"></td>
                         </tr>
                 </tbody>
-                <!--<tfoot>
-                    <tr>
-                        <td colspan="3">EN CARTELERA</td>
-                    </tr>
-                </tfoot>-->
             </table>
         </div>
     </section>
     <footer>
-        <p class="honk-letraColoresP" id="pfooter">Autor: Bryan Steven Oyola C</p>
-        <a href="mailto:bryans.oyola@gmail.com">Mi información de contacto</a>
-        <a href="http://validator.w3.org/check.cgi?url="><img src="/media/imagenes/recursos/valid-rss-rogers.png" alt="[Valid RSS]" title="Validar mi RSS" /></a>
+        <p class="honk-letraColoresP" id="pfooter">Autor del blog: Bryan Steven Oyola C</p>
+        <a title="contacto" href="mailto:bryans.oyola@gmail.com"><img src="media/imagenes/recursos/user.png" width="90px" alt="Imágen de usuario no encontrada"/></a>
+        <a title="RSS" href="rss/peliculas.rss"><img src="media/imagenes/recursos/rss.png" width="90px" alt="Imágen RSS no encontrada"/></a>
     </footer>
 </body>
 </html>

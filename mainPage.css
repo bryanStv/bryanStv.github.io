@@ -1,0 +1,83 @@
+#banner img {
+    max-width: 1700px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*filter: grayscale(100%) contrast(150%) brightness(75%) sepia(20%) hue-rotate(90deg);
+    /*filter:invert(1);*/
+}
+
+h1,h2,h3,p{
+    color: blueviolet;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+header{
+
+}
+
+body{
+    background-color: blanchedalmond;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+tbody{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.image-table {
+    width: 300%; /* Ajusta el ancho total según el número de imágenes */
+    table-layout: fixed;
+    border-spacing: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.image-table img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-table td {
+    width: 33.33%; /* Divide el ancho total entre el número de imágenes */
+    overflow: hidden;
+}
+
+/* Añade la siguiente regla para hacer el slider responsive */
+@media (max-width: 600px) {
+    .image-table td {
+        width: 100%;
+    }
+}

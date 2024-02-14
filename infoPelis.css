@@ -1,0 +1,156 @@
+#banner img {
+    max-width: 1700px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(100%) contrast(150%) brightness(75%) sepia(20%) hue-rotate(90deg);
+    /*filter:invert(1);*/
+}
+
+header{
+    margin:10px;
+    padding: 5px;
+}
+
+body{
+    margin: 10px;
+    padding: 25px;
+    background-color: black;
+}
+
+.menu{
+    margin: auto;
+    padding: auto;
+    background-color: transparent;
+    max-width: 875px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Cambiado a flex para diseño horizontal */
+}
+
+.menu li{
+    margin-right: 20px;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+
+.menu a:hover{
+    background-color: green;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+
+caption {
+    animation: fadeInOut 3s ease infinite; /* 3s de duración, función de temporización "ease", repetición infinita */
+}
+
+caption{
+    text-align: center;
+    font-size: 60px;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: black;
+}
+
+thead{
+    /*animation: fadeInOut 3s ease infinite;*/
+}
+
+table, th, td {
+    border: 10px dotted green; /* Establece el color del borde de la tabla */
+}
+
+
+  
+th, td {
+    padding: 10px; /* Ajusta el relleno según tus necesidades */
+    text-align: center; /* Ajusta la alineación del texto según tus necesidades */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: green;
+}
+
+tfoot{
+    animation: fadeInOut 3s ease infinite;
+}
+
+.menuFooter{
+    margin: auto;
+    padding: auto;
+    background-color: transparent;
+    max-width: 1600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.menuFooter ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Cambiado a flex para diseño horizontal */
+}
+
+.menuFooter li{
+    margin-right: 20px;
+    text-align: center;
+}
+
+.menuFooter a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+
+.menuFooter a:hover{
+    background-color: green;
+}
+
+footer{
+    color: green;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}

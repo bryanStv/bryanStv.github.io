@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainPage.css"/>
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <title>RSS Ofertas</title>
+        <link rel="alternate" type="application/rss+xml" title="RSS Ofertas" href="peliculas.rss">
+        <div></div>
+        <div id="banner"><img src="media/imagenes/banners/CinemaTicket.jpg" width="1900" height="614" alt="Imágen no disponible"></div>
+        <h1>CINE DE CULTO</h1>
+        <h1>AUTOR: BRYAN OYOLA</h1>
+        <h2>¡Bienvenidos a Cinema2.0! Sumérgete en el fascinante mundo del cine de culto, donde las películas trascienden el tiempo y se convierten en obras atemporales que cautivan a generaciones enteras. Descubre acerca de las películas que han dejado una marca indeleble en la historia del cine. Explora nuestro sitio para desentrañar los secretos detrás de estas joyas cinematográficas y únete a una comunidad apasionada que comparte el amor por el cine que perdura. ¡Prepárate para un viaje cinematográfico único en Cinema2.0!</h2>
+        <p id="disclaimer">DISCLAIMER:Resumen para nada escrito usando chatGPT😊😊😊</p>
+    </header>
+    <section>
+        <h2>¡REGÍSTRATE!</h2>
+        <p>Para comenzar, <em>nos gustaría que te registraras</em>,mas abajo encontrarás un formulario de registro, no te preocupes, este sitio no tiene cookies ni guarda tu información en <strong>NINGÚN</strong> sitio</p>
+        <p>Al fin y al cabo, <del>ni el registro se registra... AÚN</del></p>
+        <p>Ya que como todos sabemos: <q>Una web necesita más que sólo html para ser interactiva</q></p>
+    </section>
+    <section>
+        <h2>NOVEDADES</h2>
+        <p>Sí quieres ver algo más nuevo, aquí tenemos unas pocas películas que se encuentran en cines ahora mismo</p>
+        <div class="slider-container">
+            <table>
+                <!--<thead>
+                    <tr>
+                        <th>Beekeeper: El Protector</th>
+                        <th>Aquaman y el reino perdido</th>
+                        <th>Wonka</th>
+                    </tr>
+                </thead> -->
+                <tbody>
+                        <tr class="image-table">
+                            <td><img src="media/imagenes/portadas/beekeeper.jpeg" alt="No disponible" width="197" height="282"></td>
+                            <td><img src="media/imagenes/portadas/aquaman.jpeg" alt="No disponible" width="197" height="282"></td>
+                            <td><img src="media/imagenes/portadas/wonka.jpeg" alt="No disponible" width="197" height="282"></td>
+                        </tr>
+                </tbody>
+                <!--<tfoot>
+                    <tr>
+                        <td colspan="3">EN CARTELERA</td>
+                    </tr>
+                </tfoot>-->
+            </table>
+        </div>
+    </section>
+    <aside>
+        <h2>Registro: </h2>
+        <form action="post" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Registrarse">
+            <input type="reset" value="Reiniciar Registro">
+        </form>
+    </aside>
+    <aside>
+        <h2>Ya has visto todas estas películas?</h2>
+        <h3>Si es así, Qué película prefieres:</h3>
+        <form name="formularioPeliculas" action="post" method="post">
+            <select name="Según tú, Cuál es mejor: " required>
+                <option value="" disabled selected hidden>Selecciona una película</option>
+                <option value="El club de la lucha">El club de la lucha</option>
+                <option value="Matrix">Matrix</option>
+                <option value="El Padrino">El Padrino</option>
+                <option value="El Señor de los anillos: La comunidad del anillo">El Señor de los anillos: La comunidad del anillo</option>
+            </select>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </aside>
+    <footer>
+        <nav>
+            <a href="infoPelículas.html">INFORMACIÓN PELÍCULAS</a>
+            <br>
+            <a href="directores.html">DIRECTORES E INFORMACIÓN RELEVANTE</a>
+        </nav>
+        <p>Autor: Bryan Steven Oyola C</p>
+        <a href="mailto:bryans.oyola@gmail.com">Mi información de contacto</a>
+        <a href="http://validator.w3.org/check.cgi?url="><img src="/media/imagenes/recursos/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
+    </footer>
+</body>
+</html>

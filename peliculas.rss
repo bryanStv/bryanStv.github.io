@@ -1,0 +1,34 @@
+<rss version="2.0">
+    <channel>
+        <title>RSS Ofertas y Sorteos</title>
+        <link>https://github.com/bryanStv</link>
+        <description>Cartelera de películas</description>
+        <!--  La parte fija opcional  -->
+        <language>es-ES</language>
+        <image>
+            <title>RSS Ofertas y Sorteos</title>
+            <url>https://wpengine.com/wp-content/uploads/2017/12/RSS1-1024x372.png</url>
+            <link>https://github.com/bryanStv</link>
+            <width>90</width>
+            <height>36</height>
+        </image>
+        <!--  La parte variable, la que corresponde a cada noticia o ítem  -->
+        <item>
+            <title>¡Una auténtica aventura de 4 noches!</title>
+            <link>https://www.cinesa.es/promociones/dune-2-sorteo-viaje-abu-dhabi/</link>
+            <guid>https://www.cinesa.es/promociones/dune-2-sorteo-viaje-abu-dhabi/</guid>
+            <description>Compra ya tu entrada online y vive una auténtica aventura ganando este viaje a Abu Dhabi
+                Participa en el sorteo con "Dune: Parte dos" y podrás conseguir un viaje de aventura al desierto donde se rodó la película.
+            
+                El sorteo termina el: 03/03/2024</description>
+        </item>
+        <item>
+            <title>¡Siéntete espía por un día!</title>
+            <link>https://www.cinesa.es/promociones/sorteo-menu-argylle/</link>
+            <guid>https://www.cinesa.es/promociones/sorteo-menu-argylle/</guid>
+            <description>Compra tu Menú Argylle y conviértete en el Agente Argylle ganando este viaje de fin de semana a Londres
+                Participa en el sorteo con Argylle (entre el 1 y el 28 de febrero) y podrás conseguir un viaje de fin de semana para 2 personas a Londres lleno de sorpresas
+                El sorteo termina el: 28/02/2024</description>
+        </item>
+    </channel>
+</rss>

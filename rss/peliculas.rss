@@ -15,13 +15,10 @@
         </image>
         <!--  La parte variable, la que corresponde a cada noticia o ítem  -->
         <item>
-            <title>¡Una auténtica aventura de 4 noches!</title>
-            <link>https://www.cinesa.es/promociones/dune-2-sorteo-viaje-abu-dhabi/</link>
-            <guid>https://www.cinesa.es/promociones/dune-2-sorteo-viaje-abu-dhabi/</guid>
-            <description>Compra ya tu entrada online y vive una auténtica aventura ganando este viaje a Abu Dhabi
-                Participa en el sorteo con "Dune: Parte dos" y podrás conseguir un viaje de aventura al desierto donde se rodó la película.
-            
-                El sorteo termina el: 03/03/2024</description>
+            <title>El Padrino</title>
+            <link>https://bryanstv.github.io/infoPelículas.html/#Padrino</link>
+            <guid>https://bryanstv.github.io/infoPelículas.html/#Padrino</guid>
+            <description>América, años 40. Don Vito Corleone (Marlon Brando) es el respetado y temido jefe de una de las cinco familias de la mafia de Nueva York. Tiene cuatro hijos: Connie (Talia Shire), el impulsivo Sonny (James Caan), el pusilánime Fredo (John Cazale) y Michael (Al Pacino), que no quiere saber nada de los negocios de su padre. Cuando Corleone, en contra de los consejos de 'Il consigliere' Tom Hagen (Robert Duvall), se niega a participar en el negocio de las drogas, el jefe de otra banda ordena su asesinato. Empieza entonces una violenta y cruenta guerra entre las familias mafiosas.</description>
         </item>
         <item>
             <title>¡Siéntete espía por un día!</title>

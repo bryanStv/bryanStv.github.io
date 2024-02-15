@@ -63,7 +63,7 @@ table{
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Cambiado a flex para diseño horizontal */
+    display: flex;
 }
 
 .menu li{
@@ -179,16 +179,14 @@ footer{
     background-color: rgb(169, 60, 30);
     text-align: center;
 }
+
+/*TIPO DE LETRA IMPORTADA DE GOOGLE FONTS*/
 #pfooter{
     font-size: xx-large;
-}
-
-/*TIPOS DE LETRAS IMPORTADAS DE GOOGLE FONTS*/
-.honk-letraColoresP {
     font-family: "Honk", system-ui;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
       "MORF" 15,
       "SHLN" 50;
- }
+}

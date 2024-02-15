@@ -17,25 +17,24 @@ body{
     background-color: rgb(251, 235, 194);
 }
 
-/*MENU*/
-.menu{
+/* MENU */
+.menu {
     margin: 0 auto;
+    width: 550px;
     background-color: transparent;
-    max-width: 1200px;
     font-family: 'Honk','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 45px;
 }
 
-.menu ul{
+.menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    align-items: center;
+    display: flex; /* flex para diseño horizontal */
+    justify-content: space-around;
 }
 
-.menu li{
-    margin-right: 20px;
+.menu li {
     text-align: center;
 }
 
@@ -45,7 +44,7 @@ body{
     display: block;
 }
 
-.menu a:hover{
+.menu a:hover {
     background-color: rgb(169, 60, 30);
 }
 
@@ -64,29 +63,6 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@keyframes fadeInOut {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-}
-
-caption {
-    animation: fadeInOut 3s ease infinite;
-}
-
-caption{
-    text-align: center;
-    font-size: 60px;
-    color: rgb(169, 60, 30);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 table{
     border-collapse: collapse;
     width: 100%;
@@ -98,10 +74,21 @@ thead{
 }
 
 table, th, td {
-    border: 5px dotted rgb(251, 235, 194);
+    border: 5px dotted rgb(251, 235, 194); 
 }
 
+/* Música */
+div.contenedorAudio {
+    text-align: center;
+    margin-top: 20px;
+}
 
+audio {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+}
   
 th, td {
     padding: 10px;
@@ -109,10 +96,6 @@ th, td {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
     color: rgb(251, 235, 194);
-}
-
-tfoot{
-    animation: fadeInOut 3s ease infinite;
 }
 
 footer{

@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?> 
 <rss version="2.0">
     <channel>
-        <title>RSS Ofertas y Sorteos</title>
-        <link>https://github.com/bryanStv</link>
-        <description>Cartelera de películas</description>
+        <title>Peliculas de culto</title>
+        <link>https://bryanstv.github.io/index.html</link>
+        <description>Página web con información acerca de películas de culto y sus directores</description>
         <!--  La parte fija opcional  -->
         <language>es-ES</language>
         <image>

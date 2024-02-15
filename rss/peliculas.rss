@@ -16,6 +16,7 @@
             <image>
                 <url>https://bryanstv.github.io/media/imagenes/portadas/the_godfather.jpg</url>
                 <title>El Padrino</title>
+                <link>https://bryanstv.github.io/media/imagenes/portadas/the_godfather.jpg</link>
             </image>
         </item>
         <item>
@@ -28,6 +29,7 @@
             <image>
                 <url>https://bryanstv.github.io/media/imagenes/directores/peter_jackson.jpg</url>
                 <title>Peter Jackson</title>
+                <link>https://bryanstv.github.io/media/imagenes/portadas/the_godfather.jpg</link>
             </image>
         </item>
     </channel>

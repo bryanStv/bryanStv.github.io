@@ -9,8 +9,8 @@
         <!--  La parte variable, la que corresponde a cada noticia o ítem  -->
         <item>
             <title>El Padrino</title>
-            <link>https://bryanstv.github.io/infoPelículas.html#Padrino</link>
-            <guid>https://bryanstv.github.io/infoPelículas.html#Padrino</guid>
+            <link>https://bryanstv.github.io/infoPelículas.html%23Padrino</link>
+            <guid>https://bryanstv.github.io/infoPelículas.html%23Padrino</guid>
             <description>América, años 40. Don Vito Corleone (Marlon Brando) es el respetado y temido jefe de una de las cinco familias de la mafia de Nueva York. Tiene cuatro hijos: Connie (Talia Shire), el impulsivo Sonny (James Caan), el pusilánime Fredo (John Cazale) y Michael (Al Pacino), que no quiere saber nada de los negocios de su padre. Cuando Corleone, en contra de los consejos de 'Il consigliere' Tom Hagen (Robert Duvall), se niega a participar en el negocio de las drogas, el jefe de otra banda ordena su asesinato. Empieza entonces una violenta y cruenta guerra entre las familias mafiosas.</description>
 
             <image>
@@ -21,8 +21,8 @@
         </item>
         <item>
             <title>Conoce a Peter Jackson</title>
-            <link>https://bryanstv.github.io/directores.html#PeterJackson</link>
-            <guid>https://bryanstv.github.io/directores.html#PeterJackson</guid>
+            <link>https://bryanstv.github.io/directores.html%23PeterJackson</link>
+            <guid>https://bryanstv.github.io/directores.html%23PeterJackson</guid>
             <description>Peter Jackson nació el 31 de octubre de 1961 en Wellington, capital de Nueva Zelanda, y se crio en Pukerua Bay, siendo hijo de inmigrantes ingleses. A los nueve años vio King Kong y desde entonces quiso ser director de cine. Realizó cortometrajes con la cámara de vídeo que le regalaron sus padres.</description>
 
 

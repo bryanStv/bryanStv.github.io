@@ -1,0 +1,144 @@
+#banner img{
+    max-width: 1700px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter:grayscale(100%)
+}
+
+/*Tipo de letra*/
+h1,h2,h3,p{
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+h2{
+    font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+h3{
+    font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+p{
+    font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+header{
+    background-color: rgb(66, 28, 90);
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(106, 64, 180);
+    margin: 100px;
+    padding: 0px;
+}
+
+/*tabla*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th {
+    border: 2px dotted gold;
+    background-color: rgb(66, 28, 90);
+    color: gold;
+    padding: 20px;
+}
+
+td {
+    border: 2px solid gold;
+    padding: 10px;
+    color: gold;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+tfoot{
+    border: 2px dotted gold;
+    background-color: rgb(66, 28, 90);
+    color: gold;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Animación*/
+@keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+
+caption {
+    animation: fadeInOut 3s ease infinite;
+}
+
+caption{
+    text-align: center;
+    font-size: 60px;
+    color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*MENU*/
+.menu{
+    margin: 0 auto;
+    background-color: transparent;
+    max-width: 1600px;
+    font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    margin-right: 20px;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: aliceblue;
+}
+
+.menu a:hover{
+    background-color: gold;
+    color:rgb(106, 64, 180);
+}
+
+/*footer*/
+#pfooter{
+    color: gold;
+    text-align: center;
+    font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}

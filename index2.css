@@ -1,0 +1,195 @@
+#banner img {
+    max-width: 1700px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter:grayscale(100%)
+}
+
+/*Tipo de letra*/
+h1,h2,h3,p{
+    color: whitesmoke;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+h2{
+    font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+h3{
+    font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+p{
+    font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+/*MENU*/
+.menu{
+    margin: 0 auto;
+    background-color: transparent;
+    max-width: 1600px;
+    font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    margin-right: 20px;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: aliceblue;
+}
+
+.menu a:hover{
+    background-color: rgb(106, 64, 180);
+    color:gold;
+}
+
+header{
+    background-color: rgb(66, 28, 90);
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(106, 64, 180);
+    margin: 100px;
+    padding: 0px;
+}
+
+/*Section y Aside principal*/
+
+.introduccionResumen{
+    display: flex;
+    padding: 80px;
+    margin: 100px;
+}
+.introduccionResumen section{
+    flex: 3;
+}
+
+.introduccionResumen aside{
+    flex:1;
+    margin-left: 50px;
+}
+
+.introduccionResumen h2{
+    text-align: justify;
+}
+
+/*Registro y formulario*/
+
+.registroYformulario{
+    display: flex;
+}
+.registroYformulario section{
+    flex: 2;
+}
+.registroYformulario aside{
+    flex: 0.5;
+}
+.registroYformulario h1,h2,p{
+    text-align: center;
+}
+#infoRegistro{
+    background-color: rgb(66, 28, 90);
+    border: 1px solid gold;
+}
+#registroMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    background-color: rgb(66, 28, 90);
+    padding: 55px;
+    border: 1px solid gold;
+    width: 300px;
+    color: gold;
+}
+#formularioPeliculas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background-color: rgb(66, 28, 90);
+    border: 1px solid gold;
+    padding:50px;
+    color: gold;
+}
+
+/*inputs*/
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid gold;
+    border-radius: 4px;
+}
+
+/*botones*/
+input[type="submit"],
+input[type="reset"] {
+    background-color: gold;
+    color: rgb(66, 28, 90);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: rgb(106, 64, 180);
+    color: aliceblue;
+}
+
+/*tabla*/
+
+tbody{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+/*footer*/
+
+footer{
+    background-color: rgb(66, 28, 90);
+    text-align: center;
+}
+
+#pfooter{
+    color: gold;
+    font-size: xx-large;
+}
+
+#contactoImg{
+    filter: invert(100);
+}

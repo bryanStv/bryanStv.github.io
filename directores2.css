@@ -1,10 +1,14 @@
-.bannerEntrada img{
-    max-width: 1700px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.bannerEntrada picture img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
     filter:grayscale(100%)
+}
+
+div .bannerEntrada{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
 }
 
 /*Tipo de letra*/
@@ -15,38 +19,49 @@ h1,h2,h3,p{
 
 h1{
     font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: xx-large;
+    font-size: 28px;
 }
 
 h2{
     font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
+    font-size: 28px;
 }
 
 h3{
     font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
+    font-size: 20px;
 }
 
 p{
     font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: medium;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .h1,h2,h3,p {
+      font-size: 1em; /* Redimensionar el tamaño de fuente según el tamaño de la pantalla */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .h1,h2,h3,p {
+      font-size: 0.8em; /* Redimensionar el tamaño de fuente aún más para pantallas muy pequeñas */
+    }
 }
 
 header{
     background-color: rgb(66, 28, 90);
-    padding: 0;
-    margin: 0;
 }
 
 body{
     background-color: rgb(106, 64, 180);
-    margin: 100px;
-    padding: 0px;
 }
 
 /*tabla*/
 table {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;

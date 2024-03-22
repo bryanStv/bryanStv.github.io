@@ -1,7 +1,7 @@
 #banner img {
     max-width: 1700px;
     height: auto;
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
 }

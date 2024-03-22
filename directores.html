@@ -16,7 +16,19 @@
 </head>
 <body>
     <header>
-        <div class="bannerEntrada"><img src="media/imagenes/banners/CinemaTicket.jpg" width="1900" height="614" alt="Imágen no disponible"></div>
+        <div class="bannerEntrada">
+            <picture>
+                <img
+                sizes="(max-width: 1400px) 100vw, 1400px"
+                srcset="
+                /media/imagenes/banners/responsive/CinemaTicket_vz8pw2_c_scale,w_200.jpg 200w,
+                /media/imagenes/banners/responsive/CinemaTicket_vz8pw2_c_scale,w_616.jpg 616w,
+                /media/imagenes/banners/responsive/CinemaTicket_vz8pw2_c_scale,w_1139.jpg 1139w,
+                /media/imagenes/banners/responsive/CinemaTicket_vz8pw2_c_scale,w_1400.jpg 1400w"
+                src="/media/imagenes/banners/responsive/CinemaTicket_vz8pw2_c_scale,w_1400.jpg"
+                alt="No hay imagen">
+            </picture>
+        </div>
         <h1>INFORMACIÓN DE DIRECTORES POR PELÍCULA</h1>
     </header>
     <section>

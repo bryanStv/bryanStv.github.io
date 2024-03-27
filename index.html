@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--CSS LINK 1-->
+    <!--CSS LINK 1-->
     <!--<link rel="stylesheet" href="index.css">-->
     <!--CSS LINK 2-->
-    <link rel="stylesheet" href="index2.css">
+    <!--<link rel="stylesheet" href="index2.css">-->
+    <!--CSS LINK RESPONSIVE-->
+    <link rel="stylesheet" href="/responsive/index2.css">
 
     <!--Estilos de letras importadas-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,10 +17,16 @@
 
     <title>Inicio</title>
 </head>
-<body>
-    <div class="CabezeraCompleta">
+<body id="sitio-cine">
     <header>
-        <div id="banner"><img src="media/imagenes/banners/CinemaTicket.jpg" width="1900" height="614" alt="Imágen no disponible"></div>
+        <div id="banner">
+            <img src="/media/imagenes/banners/responsive/CinemaTicket_vz8pw2_c_scale,w_1400.jpg" srcset="
+                /media/imagenes/banners/responsive/CinemaTicket_vz8pw2_c_scale,w_200.jpg 200w,
+                /media/imagenes/banners/responsive/CinemaTicket_vz8pw2_c_scale,w_616.jpg 616w,
+                /media/imagenes/banners/responsive/CinemaTicket_vz8pw2_c_scale,w_1139.jpg 1139w,
+                /media/imagenes/banners/responsive/CinemaTicket_vz8pw2_c_scale,w_1400.jpg 1400w"
+                sizes="(max-width: 1900px) 100vw, 1700px" alt="No hay imagen">
+        </div>
         <nav class="menu">
             <ul>
                 <li><a href="infoPeliculas.html">INFORMACIÓN DE PELÍCULAS</a></li>
@@ -26,73 +34,59 @@
             </ul>
         </nav>
     </header>
-    </div>
-    <div class="introduccionResumen">
-        <section>
+
+    <main class="grid-container">
+        <section class="introduccionResumen">
             <h1>CINE DE CULTO</h1>
             <h1>AUTOR DEL BLOG: BRYAN OYOLA</h1>
             <h2>¡Bienvenidos a Cinema2.0! Sumérgete en el fascinante mundo del cine de culto, donde las películas trascienden el tiempo y se convierten en obras atemporales que cautivan a generaciones enteras. Descubre acerca de las películas que han dejado una marca indeleble en la historia del cine. Explora nuestro sitio para desentrañar los secretos detrás de estas joyas cinematográficas y únete a una comunidad apasionada que comparte el amor por el cine que perdura. ¡Prepárate para un viaje cinematográfico único en Cinema2.0!</h2>
             <p id="disclaimer">DISCLAIMER:Resumen para nada escrito usando chatGPT😊😊😊</p>
+            <img id="camara" src="media/imagenes/recursos/camaraRetro.png" width="197" height="282" alt="Imágen no disponible">
         </section>
-        <aside>
-            <img src="media/imagenes/recursos/camaraRetro.png" width="197" height="282" alt="Imágen no disponible">
-        </aside>
-    </div>
-    <div class="registroYformulario">
-        <section id="infoRegistro">
-            <h2>¡REGÍSTRATE!</h2>
-            <p>Para comenzar, <em>¡nos gustaría que te registraras!</em> a la derecha encontrarás un formulario de registro, no te preocupes, este sitio no tiene cookies ni guarda tu información en <strong>NINGÚN</strong> sitio</p>
-            <p>Al fin y al cabo, <del>ni el registro se registra... AÚN</del></p>
-            <p>Ya que como todos sabemos: <q>Una web necesita más que sólo html y css para ser interactiva</q></p>
+
+        <section class="registroYformulario">
+            <div id="infoRegistro">
+                <h2>¡REGÍSTRATE!</h2>
+                <p>Para comenzar, <em>¡nos gustaría que te registraras!</em> a la derecha encontrarás un formulario de registro, no te preocupes, este sitio no tiene cookies ni guarda tu información en <strong>NINGÚN</strong> sitio</p>
+                <p>Al fin y al cabo, <del>ni el registro se registra... AÚN</del></p>
+                <p>Ya que como todos sabemos: <q>Una web necesita más que sólo html y css para ser interactiva</q></p>
+            </div>
+
+            <aside id="formularioPeliculas">
+                <h2>Ya has visto todas estas películas?</h2>
+                <h3>Si es así, Qué película prefieres:</h3>
+                <form name="formularioPeliculas" action="post" method="post">
+                    <select name="pelicula" required>
+                        <option value="">Selecciona una película</option>
+                        <option value="El club de la lucha">El club de la lucha</option>
+                        <option value="Matrix">Matrix</option>
+                        <option value="El Padrino">El Padrino</option>
+                        <option value="El Señor de los anillos: La comunidad del anillo">El Señor de los anillos: La comunidad del anillo</option>
+                    </select>
+                    <br>
+                    <input type="submit">
+                    <input type="reset">
+                </form>
+            </aside>
+
+            <aside id="registroMain">
+                <h2>Registro: </h2>
+                <form action="post" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <br>
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+                    <br>
+                    <input type="submit" value="Registrarse">
+                    <input type="reset" value="Reiniciar Registro">
+                </form>
+            </aside>
         </section>
-        <aside id="registroMain">
-            <h2>Registro: </h2>
-            <form action="post" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-                <br>
-                <label for="email">E-Mail:</label>
-                <input type="email" id="email" name="email" required>
-                <br>
-                <label for="password">Contraseña:</label>
-                <input type="password" id="password" name="password" required>
-                <br>
-                <input type="submit" value="Registrarse">
-                <input type="reset" value="Reiniciar Registro">
-            </form>
-        </aside>
-        <aside id="formularioPeliculas">
-            <h2>Ya has visto todas estas películas?</h2>
-            <h3>Si es así, Qué película prefieres:</h3>
-            <form name="formularioPeliculas" action="post" method="post">
-                <select name="Según tú, Cuál es mejor: " required>
-                    <option value="" disabled selected hidden>Selecciona una película</option>
-                    <option value="El club de la lucha">El club de la lucha</option>
-                    <option value="Matrix">Matrix</option>
-                    <option value="El Padrino">El Padrino</option>
-                    <option value="El Señor de los anillos: La comunidad del anillo">El Señor de los anillos: La comunidad del anillo</option>
-                </select>
-                <br>
-                <input type="submit">
-                <input type="reset">
-            </form>
-        </aside>
-    </div>
-    <section>
-        <h2>NOVEDADES</h2>
-        <h3>Sí quieres ver algo más nuevo, aquí tenemos unas pocas películas que se encuentran en cines ahora mismo</h3>
-        <div>
-            <table>
-                <tbody>
-                        <tr class="image-table">
-                            <td><img src="media/imagenes/portadas/beekeeper.jpeg" alt="No disponible" width="197" height="282"></td>
-                            <td><img src="media/imagenes/portadas/aquaman.jpeg" alt="No disponible" width="197" height="282"></td>
-                            <td><img src="media/imagenes/portadas/wonka.jpeg" alt="No disponible" width="197" height="282"></td>
-                        </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
+    </main>
     <footer>
         <p id="pfooter">Autor del blog: Bryan Steven Oyola C</p>
         <a id="contactoImg" title="contacto" href="mailto:bryans.oyola@gmail.com"><img src="media/imagenes/recursos/user.png" width="90" alt="Imágen de usuario no encontrada"></a>

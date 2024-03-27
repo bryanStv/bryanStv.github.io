@@ -1,0 +1,338 @@
+/*Cosas comunes en todos*/
+
+body{
+    background-color: rgb(106, 64, 180);
+    color: aliceblue;
+}
+
+header{
+    background-color: rgb(66, 28, 90);
+}
+
+#banner img{
+    filter:grayscale(100%);
+}
+
+#contactoImg{
+    filter: invert(1);
+}
+
+#camara{
+    filter:grayscale(100%);
+}
+
+/*TEXTO*/
+.introduccionResumen h1,
+#infoRegistro h2,
+#formularioPeliculas h2,
+#registroMain h2{
+    color: gold;
+}
+.introduccionResumen h2,
+#infoRegistro > p,
+#formularioPeliculas h3{
+    font-family: 'Dancing Script','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#infoRegistro > p del{
+    color: red;
+}
+
+#infoRegistro > p q{
+    color: gold;
+    text-decoration-line: underline;
+}
+
+.introduccionResumen #disclaimer{
+    color: gold;
+}
+
+/*FORMULARIOS*/
+#formularioPeliculas{
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+#registroMain{
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/*FOOTER*/
+footer{
+    background-color: rgb(66, 28, 90);
+}
+
+/*MEDIA QUERIES*/
+
+/*Pantallas Pequeñas*/
+@media screen and (min-width: 300px){
+    /*CUERPO PÁGINA*/
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+    header{
+        margin: 0%;
+        padding: 0%;
+    }
+    /*MENÚ*/
+    nav.menu ul{
+        list-style: none;
+    }
+    nav.menu li{
+        margin-left: 5%;
+        margin-right: 15%;
+        text-align: center;
+    }
+    nav.menu a{
+        color:aquamarine;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        font-size: 1em;
+    }
+    nav.menu a:hover{
+        color: gold;
+    }
+
+    main.grid-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        padding: 0% 10%;
+    }
+    /*TEXTO*/
+    .introduccionResumen h1,
+    #infoRegistro h2,
+    #formularioPeliculas h2,
+    #registroMain h2{
+        text-align: center;
+    }
+    .introduccionResumen h2,
+    #infoRegistro > p,
+    #formularioPeliculas h3{
+        font-size: 2em;
+        text-align: left;
+    }
+
+    .introduccionResumen #disclaimer{
+        text-align: center;
+    }
+
+    /*IMÁGEN*/
+    #camara{
+        margin-left: 15%;
+    }
+    /*FORMULARIOS*/
+    #formularioPeliculas{
+        *{
+            padding: 2%;
+            margin: 0.8%;
+        }
+        form{
+            margin: 10% 0;
+        }
+    }
+    #registroMain{
+        *{
+            padding: 2%;
+            margin: 0.8%;
+        }
+        form{
+            margin: 10% 0;
+        }
+    }
+    /*FOOTER*/
+    footer{
+        color:gold;
+        background-color: rgb(66, 28, 90);
+        display: flex;
+    }
+}
+
+/*Pantallas medianas*/
+@media screen and (min-width: 768px){
+        /*CUERPO PÁGINA*/
+        body{
+            background-color: grey;
+            margin: 0%;
+            padding: 0%;
+        }
+        header{
+            background-color: navy;
+            margin: 0%;
+            padding: 0%;
+        }
+        /*MENÚ*/
+        nav.menu ul{
+            list-style: none;
+        }
+        nav.menu li{
+            margin-left: 5%;
+            margin-right: 15%;
+            text-align: center;
+        }
+        nav.menu a{
+            color:greenyellow;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration: none;
+            font-size: 2em;
+        }
+        nav.menu a:hover{
+            color: red;
+        }
+    
+        main.grid-container{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+            padding: 0% 10%;
+        }
+        /*TEXTO*/
+        .introduccionResumen h1,
+        #infoRegistro h2,
+        #formularioPeliculas h2,
+        #registroMain h2{
+            text-align: center;
+            font-size: 3em;;
+        }
+        .introduccionResumen h2,
+        #infoRegistro > p,
+        #formularioPeliculas h3{
+            font-size: 2em;
+            text-align: center;
+        }
+    
+        .introduccionResumen #disclaimer{
+            text-align: center;
+            font-size: 1.5em;;
+        }
+    
+        /*IMÁGEN*/
+        #camara{
+            margin-left: 35%;
+        }
+        /*FORMULARIOS*/
+        #formularioPeliculas{
+            *{
+                padding: 2%;
+                margin: 0.8%;
+            }
+            form{
+                margin: 10% 0;
+            }
+        }
+        #registroMain{
+            *{
+                padding: 2%;
+                margin: 0.8%;
+            }
+            form{
+                margin: 10% 0;
+            }
+        }
+        /*FOOTER*/
+        footer{
+            color:gold;
+            background-color: navy;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+}
+/*Pantallas grandes*/
+@media screen and (min-width: 1024px){
+    /*BANNER*/
+    #banner img{
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+    /*CUERPO PÁGINA*/
+    body{
+        background-color: navy;
+        margin: 0%;
+        padding: 0%;
+    }
+    header{
+        background-color: rgb(106, 64, 180);
+        margin: 0%;
+        padding: 0%;
+    }
+    /*MENÚ*/
+    nav.menu ul{
+        list-style: none;
+    }
+    nav.menu li{
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: center;
+    }
+    nav.menu a{
+        color:greenyellow;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        font-size: 2em;
+    }
+    nav.menu a:hover{
+        color: red;
+    }
+
+    main.grid-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+        padding: 0% 10%;
+    }
+    /*TEXTO*/
+    .introduccionResumen h1,
+    #infoRegistro h2,
+    #formularioPeliculas h2,
+    #registroMain h2{
+        text-align: center;
+        font-size: 3em;;
+    }
+    .introduccionResumen h2,
+    #infoRegistro > p,
+    #formularioPeliculas h3{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .introduccionResumen #disclaimer{
+        text-align: center;
+        font-size: 1.5em;;
+    }
+
+    /*IMÁGEN*/
+    #camara{
+        margin-left: 35%;
+    }
+    /*FORMULARIOS*/
+    #formularioPeliculas{
+        *{
+            padding: 2%;
+            margin: 0.8%;
+        }
+        form{
+            margin: 10% 0;
+        }
+    }
+    #registroMain{
+        *{
+            padding: 2%;
+            margin: 0.8%;
+        }
+        form{
+            margin: 10% 0;
+        }
+    }
+    /*FOOTER*/
+    footer{
+        color:gold;
+        background-color: rgb(106, 64, 180);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
